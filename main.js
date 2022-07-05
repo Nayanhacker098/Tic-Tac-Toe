@@ -90,9 +90,9 @@ function gameOverScreen(winnerText) {
   if (winnerText != null) {
     text = `Winner is ${winnerText}!`;
     if(winnerText === PLAYER_X){
-      text = `Winner is PLayer 1!`; 
+      text = `Winner is Player 1!`; 
     }else{
-      text = `Winner is PLayer 2!`; 
+      text = `Winner is Player 2!`; 
     }
   }
   gameOverArea.className = "visible";
